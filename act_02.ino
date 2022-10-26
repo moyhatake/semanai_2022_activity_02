@@ -11,8 +11,8 @@ const int ledChannel = 0;
 const int resolution = 8;
 
 int ADC_VALUE = 0;
-int pinStateCurrent = LOW;  // current state of pin
-int pinStatePrevious = LOW;  // previous state of pin
+int pinStateCurrent = LOW;
+int pinStatePrevious = LOW;
 int LEDs[] = {27,26,25,33,32,2,13};     // for ESP32 microcontroller
 int zero[] = {0, 1, 1, 1, 1, 1, 1};     // cero
 int one[] = {0, 0, 0, 0, 1, 1, 0};      // uno
